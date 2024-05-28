@@ -1,0 +1,49 @@
+.title {
+    --div-height: 300px;
+    background-color: rgb(159, 249, 255);
+    text-align: center;
+    height: var(--div-height);
+    line-height: var(--div-height);
+    }
+
+    body{
+    background-color: rgb(128, 236, 255);
+    }   
+    
+    h1{
+        text-align: center;
+    }
+    .photo{
+      text-align: center;
+   }
+ 
+.button {
+  display: inline-block;
+  width: 98%;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  color: #000000;
+  text-decoration: none;
+ border-radius: 5px;
+ border: 2px solid black;
+ text-align: center;
+}
+
+.social-buttons {
+ margin-top: 20px;}
+
+.email{
+ background-color:#faf746;
+}
+.instagram {
+ background-color: #faf746;
+}
+.Youtube{
+ background-color:#faf746;
+}
+.button:hover{
+ background-color: #e6e6e6;
+ color:rgb(17, 0, 248);
+ transition: 0.2s;
+}
